@@ -76,7 +76,7 @@ int main()
     cout << "方程2: ";
     getline(cin,e2);
     array<Fraction,2> result = sletu(get_num(e1,e2));
-    cout << result[0] << endl << result[1] << endl;
+    cout << "x = " << result[0] << endl << "y = " << result[1] << endl;
 }
 
 
